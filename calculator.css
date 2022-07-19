@@ -1,1 +1,39 @@
-grid
+.num{
+    
+  }
+
+  .operation-btn {
+    border: none;
+    background-color: #33cccc;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  /* .action{
+   
+  } */
+
+  .btn {
+    border: none;
+    background-color: grey;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    display: inline-block;
+
+  }
+
+
+
+  #equal-button{
+    border: none;
+    background-color: #ff0066;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
