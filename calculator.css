@@ -1,39 +1,63 @@
-.num{
-    
-  }
 
-  .operation-btn {
+  /* .container{
+    display: grid;
+    grid-template-columns: 200px auto 100px;
+  } */
+  
+  .operation-btn{
     border: none;
     background-color: #33cccc;
     padding: 14px 28px;
     font-size: 16px;
+    font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     display: inline-block;
+    border-radius: 6px;
   }
 
-  /* .action{
-   
-  } */
-
-  .btn {
+  .num-btn {
     border: none;
     background-color: grey;
     padding: 14px 28px;
     font-size: 16px;
+    font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     display: inline-block;
+    border-radius: 6px;
 
+  }
+
+  .action-btn {
+    border: none;
+    background-color: #cdcdcd;
+    color: #ff0066;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 6px;
   }
 
 
 
-  #equal-button{
+  #equal-button {
     border: none;
     background-color: #ff0066;
     padding: 14px 28px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
     display: inline-block;
+    border-radius: 6px;
+  }
+
+  #result-screen{
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(225, 235, 52, 0.5)
+    /* rgba(225, 235, 52, 0.5) */
+   
   }

@@ -4,23 +4,23 @@
 
 
 //Function to add numbers. How to add many? pass input buttons through functions.
-const toAdd = (...input1, input2) => {
-    return input1 + input2;
+const toAdd = (...) => {
+    return 
 }
 
 //Function to subtract numbers
-const toSubtract = (...input1, input2) => {
-    return input1 - input2;
+const toSubtract = (...) => {
+    return 
 }
 
 //Function to multiply
-const toMultiply = (...input1, input2) => {
-    return input1 * input2;
+const toMultiply = (...) => {
+    return 
 }
 
 //Function to divide
-const toDivide = (...input1, input2) => {
-    return input1 / input2;
+const toDivide = (...) => {
+    return 
 }
 
 //Function to equal/submit
