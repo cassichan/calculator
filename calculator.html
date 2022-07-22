@@ -1,122 +1,55 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-         <link rel="stylesheet" href="./calculator.css">
-        <!-- <script src="./calculator.js"> --> 
-    <body>
+<html lang="en">
 
-    <!-- Assign class to function buttons to style a different color than numerical values?
-    Assign a different class to numberical values/signs? -->
-    <!-- <div class = "container"> -->
-    <button class="num-btn">0</button>
-    <button class="num-btn">1</button>
-    <button class="num-btn">2</button>
-    <button class="num-btn">3</button>
-    <button class="num-btn">4</button>
-    <button class="num-btn">5</button>
-    <button class="num-btn">6</button>
-    <button class="num-btn">7</button>
-    <button class="num-btn">8</button>
-    <button class="num-btn">9</button>
+<head>
+  <link rel="stylesheet" href="./calculator.css">
+  <!-- <script src="./calculator.js"> -->
 
-    <button class="operation-btn">+</button>
-    <button class="operation-btn">-</button>
-    <button class="operation-btn">*</button>
-    <button class="operation-btn">/</button>
+<body>
+  <div id="main">
+  <main>
+    <div class = "results">
+      <!-- Result screen -->
+      <label for="result"></label>
+      <input type="text" id="result-screen" name="result-screen">
+    </div>
+    <div class="action-container">
+      <button class="action-btn">ON</button>
+      <button class="action-btn">OFF</button>
+      <!-- Clear button-->
+      <button class="action-btn">C</button>
+      <!-- <button class="operation-btn">%</button> -->
+    </div>
 
-    <button class="action-btn">ON</button>
-    <button class="action-btn">OFF</button>
-     <!-- Clear -->
-    <button class="action-btn">C</button> 
-      <!-- Submit -->
-      <form>
-      <label for="equal"></label>
-      <input type="submit" id="equal-button" name="equal-button" value="=">
+    <div>
+      <button class="num-btn">7</button>
+      <button class="num-btn">8</button>
+      <button class="num-btn">9</button>
+      <button class="operation-btn">/</button>
+    </div>
+    <div>
+      <button class="num-btn">4</button>
+      <button class="num-btn">5</button>
+      <button class="num-btn">6</button>
+      <button class="operation-btn">*</button>
+    </div>
+    <div>
+      <button class="num-btn">1</button>
+      <button class="num-btn">2</button>
+      <button class="num-btn">3</button>
+      <button class="operation-btn">-</button>
+    </div>
+    <div>
+      <button class="num-btn">0</button>
+      <button class="num-btn">.</button>
+      <!-- Submit button-->
+      <form class="submit">
+        <label for="equal"></label>
+        <input type="submit" id="equal-button" name="equal-button" value="=">
       </form>
-   
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <form> -->
-            <!-- <label for="0">0</label>
-            <input type="button" id="0-button" name="0-button">
-
-            <label for="1">1</label>
-            <input type="button" id="1-button" name="1-button">
-
-            <label for="2">2</label>
-            <input type="button" id="2-button" name="2-button">
-
-            <label for="3">3</label>
-            <input type="button" id="3-button" name="3-button">
-
-            <label for="4">4</label>
-            <input type="button" id="4-button" name="4-button">
-
-            <label for="5">5</label>
-            <input type="button" id="5-button" name="5-button">
-
-            <label for="6">6</label>
-            <input type="button" id="6-button" name="6-button">
-
-            <label for="7">7</label>
-            <input type="button" id="7-button" name="7-button">
-
-            <label for="8">8</label>
-            <input type="button" id="8-button" name="8-button">
-
-            <label for="0">9</label>
-            <input type="button" id="9-button" name="9-button">
-
-            <label for="+">+</label>
-            <input type="button" id="+-button" name="+-button">
-
-            <label for="-">-</label>
-            <input type="button" id="--button" name="--button">
-
-            <label for="*">*</label>
-            <input type="button" id="*-button" name="*-button">
-
-            <label for="/">/</label>
-            <input type="button" id="/-button" name="/-button">
-
-            <label for="=">=</label>
-            <input type="submit" id="=-button" name="=-button">
-
-            <label for="0">0</label>
-            <input type="button" id="0-button" name="0-button">
-
-            <label for=".">.</label>
-            <input type="button" id=".-button" name=".-button">
-
-            <label for="clear">C</label>
-            <input type="button" id="clear-button" name="clear-button">
-
-            <label for="on">ON</label>
-            <input type="button" id="on-button" name="on-button">
-
-            <label for="off">OFF</label>
-            <input type="button" id="off-button" name="off-button"> -->
-
-    <!-- Result screen -->
-            <label for="result"></label>
-            <input type="text" id="result-screen" name="result-screen">
-
-        
-
+      <button class="operation-btn">+</button>
+    </div>
+  </main>
+</div>
 </body>
 </html>
