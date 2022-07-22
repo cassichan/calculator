@@ -1,3 +1,7 @@
+// addEventListener('click')
+
+
+
 //Turn on
 
 //Turn off
@@ -23,9 +27,14 @@ const toDivide = (...) => {
     return 
 }
 
-//Function to equal/submit
+//Function to equal/submit user input, change result screen
+const toEqual = () => {
 
-//Function to change result screen
+}
 
 //Function to clear results
+
+const toClear = () => {
+
+}
 
