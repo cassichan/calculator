@@ -1,6 +1,7 @@
 #main {
   background-color: darkgray;
   display: inline-grid;
+  border: 2px solid;
 
 }
 
